@@ -21,7 +21,7 @@ function doNumber(num){
 function inputEnter(num){ 
     if(num.length>=19){
         let delStepInput = result.value;
-        result.value = delStepInput.substring(0, 19);
+        result.value = delStepInput.substring(0, 22);
     }
     let a = eval(num);
     equally.addEventListener('click', ()=>{
